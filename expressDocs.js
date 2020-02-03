@@ -76,3 +76,65 @@ be  */
 // Post, Get, Put and Delete
 
 // How to implement REST API ?
+
+
+// Schemes 
+// Schemes define the structure of our data objects
+
+// {name: String,
+// rank: String,
+// availability: Boolean
+// }
+
+// Middleware or Midddleware function are the functions that have access to the request object (req),
+// response object (res), and the next middleware function in the application's request-response cycle.
+// The next middleware function is commonly denoted by a variable named next.
+
+// 	Middleware is computer software that provides services to software applications beyond those
+// available from the operating system. It can be described as software glue.
+
+// Middleware makes it easier for software developers to implement communication and input/putput, so
+// they can focus on the specific purpose of their application.
+
+// Middleware is  a general term for software that serves to glue together seprate, often complex and
+// already existing, programs. Some software components that are frequently connected with middleware
+// include enterprise applications and Web services.
+
+// Software that provide a link between seprate software applications.
+// Middleware is sometimes called plumbing because it connects two applications and passes data
+// between them. Middleware allows data contained in one database to be accessed through another.
+// This defination would fit enterprise application intergration and data intergration software.
+
+// objectsWeb defines middleware as: The software layer that lies between the operating system and
+// applictions on each side of a distributed computing system in a network.
+
+// Middleware services provide a more functional set of application programming interfaces to allow an
+// application to:
+
+// 1. Locate transparently across the network, thus providing interaction with another service or
+// application.
+
+// 2. Filter data to make them friendly usable or public via anonymization process for privacy
+// protection (for example).
+
+// 3. Be independent from network services.
+
+// 4. Be reliable and always available.
+
+// 5. Add complementary attributes like semantics.
+// When compared to the operating system and network services.
+
+
+
+// Middleware functions can performs the following tasks:
+// 1. Execute any code.
+// 2. Make changes to the request and the response objects.
+// 3. End the request-response cycle.
+// 4. Call the next middleware function in the stack
+
+// An Express application can use the following types of middleware:
+// Application-level middleware
+// Router-level middleware
+// Error-handling middleware
+// Built-in middleware
+// Third-party middleware
